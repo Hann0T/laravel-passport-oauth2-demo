@@ -1,0 +1,29 @@
+Info 0    [16:08:35.774] Starting TS Server
+Info 1    [16:08:35.774] Version: 4.6.3
+Info 2    [16:08:35.775] Arguments: /usr/bin/node /home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/hann0t/Development/passport-oauth2-demo/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/53aa0bcbec4f2d5947325004cabdb9d8/tscancellation*
+Info 3    [16:08:35.775] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [16:08:35.775] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [16:08:35.788] Format host information updated
+Info 6    [16:08:35.839] Search path: /home/hann0t/Development/passport-oauth2-demo/resources/js
+Info 7    [16:08:35.840] For info: /home/hann0t/Development/passport-oauth2-demo/resources/js/bootstrap.js :: No config files found.
+Info 8    [16:08:35.846] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [16:08:36.600] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 754.0407070014626ms
+Info 10   [16:08:36.600] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [16:08:36.600] 	Files (32)
+
+Info 12   [16:08:36.600] -----------------------------------------------
+Info 13   [16:08:37.008] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 14   [16:08:37.532] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 523.7858949992806ms
+Info 15   [16:08:37.532] Project '/dev/null/inferredProject1*' (Inferred)
+Info 16   [16:08:37.532] 	Files (56)
+
+Info 17   [16:08:37.532] -----------------------------------------------
+Info 18   [16:08:37.886] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 19   [16:08:37.892] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true structureIsReused:: Not Elapsed: 6.022657999768853ms
+Info 20   [16:08:37.892] Project '/dev/null/inferredProject1*' (Inferred)
+Info 21   [16:08:37.892] 	Files (0)
+
+Info 22   [16:08:37.892] -----------------------------------------------
+Info 23   [16:08:39.258] Before ensureProjectForOpenFiles:
+Info 24   [16:08:39.258] After ensureProjectForOpenFiles:
+Info 25   [16:08:39.258] got projects updated in background, updating diagnostics for 

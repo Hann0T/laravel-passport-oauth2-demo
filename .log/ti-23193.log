@@ -1,0 +1,61 @@
+[16:08:36.011] Global cache location '/home/hann0t/.cache/typescript/4.6', safe file path '/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[16:08:36.012] Processing cache location '/home/hann0t/.cache/typescript/4.6'
+[16:08:36.012] Trying to find '/home/hann0t/.cache/typescript/4.6/package.json'...
+[16:08:36.013] Loaded content of '/home/hann0t/.cache/typescript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.591"},"devDependencies":{"@types/bootstrap":"^5.1.10","@types/lodash":"^4.14.182"}}
+[16:08:36.013] Loaded content of '/home/hann0t/.cache/typescript/4.6/package-lock.json'
+[16:08:36.023] Adding entry into typings cache: 'bootstrap' => '/home/hann0t/.cache/typescript/4.6/node_modules/@types/bootstrap/index.d.ts'
+[16:08:36.025] Adding entry into typings cache: 'lodash' => '/home/hann0t/.cache/typescript/4.6/node_modules/@types/lodash/index.d.ts'
+[16:08:36.025] Finished processing cache location '/home/hann0t/.cache/typescript/4.6'
+[16:08:36.026] Process id: 23200
+[16:08:36.026] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[16:08:36.026] validateDefaultNpmLocation: false
+[16:08:36.026] Npm config file: /home/hann0t/.cache/typescript/4.6/package.json
+[16:08:36.026] Updating types-registry npm package...
+[16:08:36.026] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[16:08:36.710]     Succeeded. stdout:
+    
+    up to date, audited 7 packages in 507ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[16:08:36.710] Updated types-registry npm package
+[16:08:36.741] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/hann0t/Development/passport-oauth2-demo/resources/js/bootstrap.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["axios"],"projectRootPath":"/home/hann0t/Development/passport-oauth2-demo/resources/js","kind":"discover"}
+[16:08:36.752] Loaded safelist from types map file '/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[16:08:36.752] Explicitly included types: []
+[16:08:36.753] Inferred typings from file names: ["bootstrap"]
+[16:08:36.753] Inferred typings from unresolved imports: ["axios"]
+[16:08:36.753] Result: {"cachedTypingPaths":["/home/hann0t/.cache/typescript/4.6/node_modules/@types/bootstrap/index.d.ts"],"newTypingNames":["axios"],"filesToWatch":["/home/hann0t/Development/passport-oauth2-demo/resources/js/bower_components","/home/hann0t/Development/passport-oauth2-demo/resources/js/node_modules"]}
+[16:08:36.753] Finished typings discovery: {"cachedTypingPaths":["/home/hann0t/.cache/typescript/4.6/node_modules/@types/bootstrap/index.d.ts"],"newTypingNames":["axios"],"filesToWatch":["/home/hann0t/Development/passport-oauth2-demo/resources/js/bower_components","/home/hann0t/Development/passport-oauth2-demo/resources/js/node_modules"]}
+[16:08:36.754] DirectoryWatcher:: Added:: WatchInfo: /home/hann0t/Development/passport-oauth2-demo/resources/js/bower_components
+[16:08:36.754] DirectoryWatcher:: Added:: WatchInfo: /home/hann0t/Development/passport-oauth2-demo/resources/js/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:08:36.755] Elapsed:: 1.1722259987145662ms DirectoryWatcher:: Added:: WatchInfo: /home/hann0t/Development/passport-oauth2-demo/resources/js/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:08:36.755] DirectoryWatcher:: Added:: WatchInfo: /home/hann0t/Development/passport-oauth2-demo/resources/js/node_modules
+[16:08:36.755] DirectoryWatcher:: Added:: WatchInfo: /home/hann0t/Development/passport-oauth2-demo/resources/js/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:08:36.755] Elapsed:: 0.08564200066030025ms DirectoryWatcher:: Added:: WatchInfo: /home/hann0t/Development/passport-oauth2-demo/resources/js/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:08:36.756] Installing typings ["axios"]
+[16:08:36.756] 'axios':: Entry for package 'axios' does not exist in local types registry - skipping...
+[16:08:36.756] All typings are known to be missing or invalid - no need to install more typings
+[16:08:36.756] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/hann0t/.cache/typescript/4.6/node_modules/@types/bootstrap/index.d.ts"],"unresolvedImports":["axios"],"kind":"action::set"}
+[16:08:36.756] Response has been sent.
+[16:08:37.633] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/hann0t/.cache/typescript/4.6/node_modules/@types/bootstrap/index.d.ts"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/hann0t/Development/passport-oauth2-demo/resources/js","kind":"discover"}
+[16:08:37.634] Explicitly included types: []
+[16:08:37.634] Inferred typings from unresolved imports: []
+[16:08:37.634] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/hann0t/Development/passport-oauth2-demo/resources/js/bower_components","/home/hann0t/Development/passport-oauth2-demo/resources/js/node_modules"]}
+[16:08:37.634] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/hann0t/Development/passport-oauth2-demo/resources/js/bower_components","/home/hann0t/Development/passport-oauth2-demo/resources/js/node_modules"]}
+[16:08:37.634] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[16:08:37.634] Response has been sent.
+[16:08:37.634] No new typings were requested as a result of typings discovery
+[16:08:37.993] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/hann0t/Development/passport-oauth2-demo/resources/js","kind":"discover"}
+[16:08:37.993] Explicitly included types: []
+[16:08:37.994] Inferred typings from unresolved imports: []
+[16:08:37.994] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/hann0t/Development/passport-oauth2-demo/resources/js/bower_components","/home/hann0t/Development/passport-oauth2-demo/resources/js/node_modules"]}
+[16:08:37.994] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/hann0t/Development/passport-oauth2-demo/resources/js/bower_components","/home/hann0t/Development/passport-oauth2-demo/resources/js/node_modules"]}
+[16:08:37.994] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[16:08:37.994] Response has been sent.
+[16:08:37.994] No new typings were requested as a result of typings discovery

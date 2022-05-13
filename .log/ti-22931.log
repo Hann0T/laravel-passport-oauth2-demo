@@ -1,0 +1,39 @@
+[16:07:28.887] Global cache location '/home/hann0t/.cache/typescript/4.6', safe file path '/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[16:07:28.888] Processing cache location '/home/hann0t/.cache/typescript/4.6'
+[16:07:28.888] Trying to find '/home/hann0t/.cache/typescript/4.6/package.json'...
+[16:07:28.888] Finished processing cache location '/home/hann0t/.cache/typescript/4.6'
+[16:07:28.888] Process id: 22954
+[16:07:28.888] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[16:07:28.888] validateDefaultNpmLocation: false
+[16:07:28.889] Npm config file: /home/hann0t/.cache/typescript/4.6/package.json
+[16:07:28.889] Npm config file: '/home/hann0t/.cache/typescript/4.6/package.json' is missing, creating new one...
+[16:07:28.890] Updating types-registry npm package...
+[16:07:28.890] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[16:07:29.867]     Succeeded. stdout:
+    
+    added 1 package, and audited 2 packages in 796ms
+
+found 0 vulnerabilities
+
+[16:07:29.868] Updated types-registry npm package
+[16:07:29.924] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/hann0t/Development/passport-oauth2-demo/resources/js/bootstrap.js","/home/hann0t/Development/passport-oauth2-demo/resources/js/app.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["axios","lodash"],"projectRootPath":"/home/hann0t/Development/passport-oauth2-demo/resources/js","kind":"discover"}
+[16:07:29.949] Loaded safelist from types map file '/home/hann0t/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[16:07:29.949] Explicitly included types: []
+[16:07:29.950] Inferred typings from file names: ["bootstrap"]
+[16:07:29.950] Inferred typings from unresolved imports: ["axios","lodash"]
+[16:07:29.950] Result: {"cachedTypingPaths":[],"newTypingNames":["bootstrap","axios","lodash"],"filesToWatch":["/home/hann0t/Development/passport-oauth2-demo/resources/js/bower_components","/home/hann0t/Development/passport-oauth2-demo/resources/js/node_modules"]}
+[16:07:29.950] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["bootstrap","axios","lodash"],"filesToWatch":["/home/hann0t/Development/passport-oauth2-demo/resources/js/bower_components","/home/hann0t/Development/passport-oauth2-demo/resources/js/node_modules"]}
+[16:07:29.951] DirectoryWatcher:: Added:: WatchInfo: /home/hann0t/Development/passport-oauth2-demo/resources/js/bower_components
+[16:07:29.951] DirectoryWatcher:: Added:: WatchInfo: /home/hann0t/Development/passport-oauth2-demo/resources/js/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:07:29.952] Elapsed:: 1.1752019990235567ms DirectoryWatcher:: Added:: WatchInfo: /home/hann0t/Development/passport-oauth2-demo/resources/js/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:07:29.952] DirectoryWatcher:: Added:: WatchInfo: /home/hann0t/Development/passport-oauth2-demo/resources/js/node_modules
+[16:07:29.953] DirectoryWatcher:: Added:: WatchInfo: /home/hann0t/Development/passport-oauth2-demo/resources/js/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:07:29.953] Elapsed:: 0.14048600010573864ms DirectoryWatcher:: Added:: WatchInfo: /home/hann0t/Development/passport-oauth2-demo/resources/js/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:07:29.953] Installing typings ["bootstrap","axios","lodash"]
+[16:07:29.953] 'axios':: Entry for package 'axios' does not exist in local types registry - skipping...
+[16:07:29.953] Npm config file: /home/hann0t/.cache/typescript/4.6/package.json
+[16:07:29.953] Sending response:
+    {"kind":"event::beginInstallTypes","eventId":1,"typingsInstallerVersion":"4.6.3","projectName":"/dev/null/inferredProject1*"}
+[16:07:29.954] Response has been sent.
+[16:07:29.954] #1 with arguments'["@types/bootstrap@ts4.6","@types/lodash@ts4.6"]'.
+[16:07:29.954] Exec: /usr/bin/npm install --ignore-scripts @types/bootstrap@ts4.6 @types/lodash@ts4.6 --save-dev --user-agent="typesInstaller/4.6.3"
